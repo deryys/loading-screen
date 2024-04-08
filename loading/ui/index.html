@@ -30,26 +30,34 @@
             <h1 class="text2">EXAMPLE <span id="white">RP</span></h1>
             <!-- END TEXT TO CHANGE -->
             <div id="circle"></div>
-            <div id="dc" onclick="goToPage()"><i class="fa-brands fa-discord"></i></div>
+            <a href="https://discord.com" target="_blank" rel="noopener noreferrer"
+                onclick="window.invokeNative('openUrl', 'https://discord.com');">
+                <div id="dc"><i class="fa-brands fa-discord"></i></div>
+            </a>
             <!-- LOADING STAGES -->
-            <div id="resource" class="loading resources">
-                <div class="line"></div>
-                <h1>Loading resources...</h1>
-                <p id="loremok" class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cumque
-                    nam eum, ad necessitatibus perspiciatis vo</p>
+            <div class="loadings">
+                <div id="resourcestage" class="loading resources">
+                    <div class="line"></div>
+                    <h1>Loading resources...</h1>
+                    <p id="loremok" class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+                        cumque
+                        nam eum, ad necessitatibus perspiciatis vo</p>
+                </div>
+                <div id="precolisionstage" class="loading pre-colisions">
+                    <div class="line"></div>
+                    <h1>Loading pre-colisions...</h1>
+                    <p id="loremok" class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+                        cumque
+                        nam eum, ad necessitatibus perspiciatis vo</p>
+                </div>
             </div>
-            <div id="precolisions" class="loading pre-colisions">
+            <div id="joiningstage" class="loading joining">
                 <div class="line"></div>
-                <h1>Loading pre-colisions...</h1>
+                <h1>Joining to server...</h1>
                 <p id="loremok" class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cumque
-                    nam eum, ad necessitatibus perspiciatis vo</p>
+                    nam
+                    eum, ad necessitatibus perspiciatis vo</p>
             </div>
-        </div>
-        <div id="joining" class="loading joining">
-            <div class="line"></div>
-            <h1>Joining to server...</h1>
-            <p id="loremok" class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cumque nam
-                eum, ad necessitatibus perspiciatis vo</p>
         </div>
 
     </div>

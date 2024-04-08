@@ -19,14 +19,6 @@ html {
 
 /* KEYFRAMES - animations */
 
-@keyframes opacity-change {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
-	}
-}
 
 @keyframes drop-shadow {
 	from {
@@ -80,36 +72,6 @@ html {
 		/* top:50%; */
 		top: 25vh;
 		padding-left: 5.5vh;
-	}
-}
-
-@keyframes opacity-resources {
-	from {
-		opacity: 0;
-	}
-	to {
-		/* top:50%; */
-		opacity: 1;
-	}
-}
-
-@keyframes opacity-resources2 {
-	from {
-		opacity: 0;
-	}
-	to {
-		/* top:50%; */
-		opacity: 0.5;
-	}
-}
-
-@keyframes opacity-resources3 {
-	from {
-		opacity: 0;
-	}
-	to {
-		/* top:50%; */
-		opacity: 0.25;
 	}
 }
 
