@@ -9,4 +9,4 @@ Simple loadingscreen for 5m in LUA, HTML, CSS, JavaScript
  - Upload it to /resources in your server, and write this in server.cfg:
 ```ensure loading```
 # Our Discord:
-[Click](https://discord.gg/BnWM94EjaF)
+[Click](https://discord.gg/404devs)
